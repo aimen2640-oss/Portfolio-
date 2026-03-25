@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #0f172a;
+  color: white;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #020617;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* Sections */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Profile Image */
+#home img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* Skills */
+.skills span {
+  display: inline-block;
+  background: #38bdf8;
+  color: black;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.skills span:hover {
+  background: white;
+  color: black;
+}
+
+/* Projects */
+.project {
+  background: #1e293b;
+  margin: 15px auto;
+  padding: 20px;
+  width: 70%;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+input, textarea {
+  margin: 8px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background: #38bdf8;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #020617;
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .project {
+    width: 90%;
+  }
+
+  form {
+    width: 90%;
+  }
+}
